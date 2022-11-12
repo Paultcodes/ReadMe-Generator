@@ -1,38 +1,56 @@
-// TODO: Create a function that returns a license badge based on which license is passed in
-// If there is no license, return an empty string
-function renderLicenseBadge(license) {}
-
-// TODO: Create a function that returns the license link
-// If there is no license, return an empty string
-function renderLicenseLink(license) {}
-
-// TODO: Create a function that returns the license section of README
-// If there is no license, return an empty string
-function renderLicenseSection(license) {}
-
 // TODO: Create a function to generate markdown for README
 function generateMarkdown(info) {
+  let licenseBadge;
+  if (info.license === "Apache License 2.0") {
+    licenseBadge =
+      "[![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)";
+  } else if (info.license === "MIT License") {
+    licenseBadge =
+      "[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)";
+  }
   return `# ${info.title}
+
+  ${licenseBadge}
   ## Description
   ${info.description}
 
-  ## Installation
+  ## Table Of Contents
+
+  * [Installation](#installation)
+
+  * [Usage](#usage)
+
+  * [License](#license)
+
+  * [Contributing](#contributing)
+
+  * [Tests](#test)
+
+  * [Questions](#questions)
+
+  
+
+  ## Installation <a name="installation"></a>
   ${info.install}
 
-  ## Usage 
+  ## Usage <a name="usage"></a>
   ${info.usage}
 
-  ## Contributing 
+  ## License <a name="license"></a>
+
+  This project is licensed under the ${info.license}
+
+  ## Contributing <a name="contributing"></a>
   ${info.contribution}
 
-  ## Tests
+  ## Tests <a name="test"></a>
   ${info.test}
 
-  * Hello
+  ## Questions <a name="questions"></a>
+
+  If you have any questions about the repo, open an issue or contact me directly at ${info.email}. You can find more of my work at [${info.github}](https://github.com/Paultcodes?tab=repositories).
 
 `;
 }
 
-
-
-module.exports = generateMarkdown;
+module.exports = { generateMarkdown };

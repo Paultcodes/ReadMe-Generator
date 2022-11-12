@@ -4,8 +4,6 @@ const fs = require("fs");
 const genReadMe = require("./utils/generateMarkdown.js");
 const { title } = require("process");
 
-
-
 // TODO: Create an array of questions for user input
 inquirer
   .prompt([
@@ -43,7 +41,7 @@ inquirer
       type: "list",
       name: "license",
       message: "Choose A License",
-      choices: ["MIT", "N/A"],
+      choices: ["Apache License 2.0", "MIT License"],
     },
     {
       type: "input",
@@ -59,19 +57,16 @@ inquirer
   .then((data) => {
     console.log(data);
     fs.writeFile(
-      `${data.title.toLowerCase().split(' ').join('')}.md`,
-      genReadMe.generateMarkdown(data), 
+      `${data.title.toLowerCase().split(" ").join("")}.md`,
+      genReadMe.generateMarkdown(data),
 
-      (err) => (err ? console.log(err) : console.log("Your ReadMe File Was Created!"))
+      (err) =>
+        err ? console.log(err) : console.log("Your ReadMe File Was Created!")
     );
   });
-
-
 
 // TODO: Create a function to initialize app
 function init() {}
 
 // Function call to initialize app
 init();
-
-
