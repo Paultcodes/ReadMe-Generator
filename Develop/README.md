@@ -2,7 +2,7 @@
 
   [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
   ## Description
-  This project is a readme file generator written with JavaScript, using node.js and inquirer. It prompts the user with questions and adds their responses to the readme file https://drive.google.com/drive/folders/159XY-hNZinXfQXyE-b_20idTNGkYJEG8?usp=sharing
+  This project is a readme file generator written with JavaScript, using node.js and inquirer. It prompts the user with questions and adds their responses to the readme file [https://drive.google.com/drive/folders/159XY-hNZinXfQXyE-b_20idTNGkYJEG8?usp=sharing](https://drive.google.com/file/d/1qmWla5y7Mrn0kRQBZnWLw_8-MBhzbKNc/view)
 
   ## Table Of Contents
 
