@@ -1,8 +1,8 @@
-# Test project title
+# ReadMe Generator 
 
-  [![License: MPL 2.0](https://img.shields.io/badge/License-MPL_2.0-brightgreen.svg)](https://opensource.org/licenses/MPL-2.0)
+  [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
   ## Description
-  short description
+  This project is a readme file generator written with JavaScript, using node.js and inquirer. It prompts the user with questions and adds their responses to the readme file [https://drive.google.com/drive/folders/159XY-hNZinXfQXyE-b_20idTNGkYJEG8?usp=sharing](https://drive.google.com/file/d/1qmWla5y7Mrn0kRQBZnWLw_8-MBhzbKNc/view)
 
   ## Table Of Contents
 
@@ -21,22 +21,23 @@
   
 
   ## Installation <a name="installation"></a>
-  install
+  To install the correct dependencies for this project, run npm i.
 
   ## Usage <a name="usage"></a>
-  Usage
+  
+  Users can use this for an easy and quick way to generate a readme directly into their project.
 
   ## License <a name="license"></a>
 
-  This project is licensed under the Mozilla Public License 2.0
+  This project is licensed under the MIT License
 
   ## Contributing <a name="contributing"></a>
-  contribute
+  Feel free to contribute as much as you like
 
   ## Tests <a name="test"></a>
-  Test it out!
+  N/A
 
   ## Questions <a id="#questions"></a>
 
-  If you have any questions about the repo, open an issue or contact me directly at fakeemail.com. You can find more of my work at [paultcodes :)](https://github.com/Paultcodes?tab=repositories).
+  If you have any questions about the repo, open an issue or contact me directly at paultayloremail1995@gmail.com. You can find more of my work at [Paultcodes](https://github.com/Paultcodes?tab=repositories).
 
