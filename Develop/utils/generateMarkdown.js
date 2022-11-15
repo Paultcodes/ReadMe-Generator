@@ -7,6 +7,9 @@ function generateMarkdown(info) {
   } else if (info.license === "MIT License") {
     licenseBadge =
       "[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)";
+  } else if (info.license === "Mozilla Public License 2.0") {
+    licenseBadge =
+      "[![License: MPL 2.0](https://img.shields.io/badge/License-MPL_2.0-brightgreen.svg)](https://opensource.org/licenses/MPL-2.0)";
   }
   return `# ${info.title}
 
@@ -46,7 +49,7 @@ function generateMarkdown(info) {
   ## Tests <a name="test"></a>
   ${info.test}
 
-  ## Questions <a name="questions"></a>
+  ## Questions <a id="#questions"></a>
 
   If you have any questions about the repo, open an issue or contact me directly at ${info.email}. You can find more of my work at [${info.github}](https://github.com/Paultcodes?tab=repositories).
 

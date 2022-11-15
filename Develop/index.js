@@ -41,7 +41,11 @@ inquirer
       type: "list",
       name: "license",
       message: "Choose A License",
-      choices: ["Apache License 2.0", "MIT License"],
+      choices: [
+        "Apache License 2.0",
+        "MIT License",
+        "Mozilla Public License 2.0",
+      ],
     },
     {
       type: "input",
@@ -57,7 +61,7 @@ inquirer
   .then((data) => {
     console.log(data);
     fs.writeFile(
-      `${data.title.toLowerCase().split(" ").join("")}.md`,
+      `README.md`,
       genReadMe.generateMarkdown(data),
 
       (err) =>
@@ -70,3 +74,5 @@ function init() {}
 
 // Function call to initialize app
 init();
+
+// ${data.title.toLowerCase().split(" ").join("")}
