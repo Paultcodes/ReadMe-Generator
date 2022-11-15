@@ -49,7 +49,7 @@ function generateMarkdown(info) {
   ## Tests <a name="test"></a>
   ${info.test}
 
-  ## Questions <a name="#questions"></a>
+  ## Questions <a name="questions"></a>
 
   If you have any questions about the repo, open an issue or contact me directly at ${info.email}. You can find more of my work at [${info.github}](https://github.com/Paultcodes?tab=repositories).
 

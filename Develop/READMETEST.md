@@ -40,6 +40,6 @@ Contribute as much as you like :)
 
 Test it out!
 
-## Questions <a name="#questions"></a>
+## Questions <a name="questions"></a>
 
 If you have any questions about the repo, open an issue or contact me directly at fakeemail.com. You can find more of my work at [paultcodes](https://github.com/Paultcodes?tab=repositories).

@@ -40,6 +40,6 @@ Feel free to contribute as much as you like
 
 N/A
 
-## Questions <a name="#questions"></a>
+## Questions <a name="questions"></a>
 
 If you have any questions about the repo, open an issue or contact me directly at paultayloremail1995@gmail.com. You can find more of my work at [Paultcodes](https://github.com/Paultcodes?tab=repositories).
