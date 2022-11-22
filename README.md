@@ -4,7 +4,7 @@
 
 ## Description
 
-This project is a readme file generator written with JavaScript, using node.js and inquirer. It prompts the user with questions and adds their responses to the readme file [https://drive.google.com/drive/folders/159XY-hNZinXfQXyE-b_20idTNGkYJEG8?usp=sharing](https://drive.google.com/file/d/1qmWla5y7Mrn0kRQBZnWLw_8-MBhzbKNc/view)
+This project is a readme file generator written with JavaScript, using node.js and inquirer. It prompts the user with questions and adds their responses to the readme file https://drive.google.com/file/d/1xUb3mdO62OhdvudSLusVmBUDHQsVILOw/view
 
 ## Table Of Contents
 
