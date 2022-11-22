@@ -1,45 +1,42 @@
-# this is just a test
+# Test project
 
-[![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
+  [![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
+  ## Description
+  description
 
-## Description
+  ## Table Of Contents
 
-description
+  * [Installation](#installation)
 
-## Table Of Contents
+  * [Usage](#usage)
 
-- [Installation](#installation)
+  * [License](#license)
 
-- [Usage](#usage)
+  * [Contributing](#contributing)
 
-- [License](#license)
+  * [Tests](#test)
 
-- [Contributing](#contributing)
+  * [Questions](#questions)
 
-- [Tests](#test)
+  
 
-- [Questions](#questions)
+  ## Installation <a name="installation"></a>
+  Install!
 
-## Installation <a name="installation"></a>
+  ## Usage <a name="usage"></a>
+  Usage
 
-Install this project!
+  ## License <a name="license"></a>
 
-## Usage <a name="usage"></a>
+  This project is licensed under the Apache License 2.0
 
-Usage!
+  ## Contributing <a name="contributing"></a>
+  Contribute!
 
-## License <a name="license"></a>
+  ## Tests <a name="test"></a>
+  Test it out :)
 
-This project is licensed under the Apache License 2.0
+  ## Questions <a name="questions"></a>
 
-## Contributing <a name="contributing"></a>
+  If you have any questions about the repo, open an issue or contact me directly at paultayloremail1995@gmail.com. You can find more of my work at [Paultcodes](https://github.com/Paultcodes?tab=repositories).
 
-Contribute as much as you like :)
-
-## Tests <a name="test"></a>
-
-Test it out!
-
-## Questions <a name="questions"></a>
-
-If you have any questions about the repo, open an issue or contact me directly at fakeemail.com. You can find more of my work at [paultcodes](https://github.com/Paultcodes?tab=repositories).

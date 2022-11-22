@@ -1,4 +1,4 @@
-// TODO: Create a function to generate markdown for README
+//Function that checks what type of license the user selected and generates the ReadMe file.
 function generateMarkdown(info) {
   let licenseBadge;
   if (info.license === "Apache License 2.0") {
